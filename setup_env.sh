@@ -1,0 +1,22 @@
+#!/bin/sh
+azd env set APP_SERVICE_NAME app-backend-hfg3u4is4wihs
+azd env set RESOURCE_GROUP_NAME rg-poc-rag-peru
+azd env set APP_SERVICE_PLAN plan-hfg3u4is4wihs
+azd env set AZURE_STORAGE_CONTAINER content
+azd env set AZURE_OPENAI_SERVICE cog-gunbku7vcuucu
+azd env set AZURE_OPENAI_RESOURCE_GROUP rg-sample-ntt-openai-dev
+azd env set AZURE_OPENAI_CHATGPT_MODEL gpt-35-turbo
+azd env set AZURE_OPENAI_CHATGPT_DEPLOYMENT chat
+azd env set AZURE_OPENAI_EMB_DEPLOYMENT embedding-ada
+azd env set AZURE_OPENAI_KEY a9860398e9454aecab048d9e4578e59d
+azd env set AZURE_SEARCH_SERVICE gptkb-hfg3u4is4wihs
+azd env set AZURE_SEARCH_SERVICE_RESOURCE_GROUP rg-poc-rag-peru
+azd env set AZURE_SEARCH_INDEX demo-rimac
+azd env set AZURE_FORMRECOGNIZER_SERVICE cog-fr-hfg3u4is4wihs
+azd env set AZURE_FORMRECOGNIZER_RESOURCE_GROUP rg-poc-rag-peru
+azd env set AZURE_FORMRECOGNIZER_KEY d659f97dbc664b9092b9e2fe6b1c21b1
+azd env set AZURE_STORAGE_ACCOUNT sthfg3u4is4wihs
+azd env set AZURE_STORAGE_RESOURCE_GROUP rg-poc-rag-peru
+azd env set AZURE_STORAGE_KEY DM+Li1zVDQUbI8OVdZb6327Z/R6Yu/RDzdSb+5Dopam+7NzcK3tJeNhOsMtHOBqomiXoxoaOMF16+AStVpOROg==
+azd env set AZURE_SERVER_APP_ID app-backend-hfg3u4is4wihs
+azd env set AZURE_USE_AUTHENTICATION false

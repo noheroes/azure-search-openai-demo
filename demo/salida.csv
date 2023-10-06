@@ -1,0 +1,3 @@
+id;nombres;direccion;sku;dni;fjson
+1;ruben porras zapata;av brasil sn;2348894329.0;09437059;{"root":{"paths":{"config":"./"},"files":{"config":"config.json"},"s3paths":{"config":"models/altovalor/config/"},"key":{"value":"lSvTIrFuNvkVpI7cyAYu3E1lxa6Z6CpPc5xczkVgXjg="}}}
+
